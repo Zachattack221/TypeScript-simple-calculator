@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Zachattack221/TypeScript-simple-calculator/issues"
   },
-  "homepage": "https://github.com/Zachattack221/TypeScript-simple-calculator#readme"
+  "homepage": "https://github.com/Zachattack221/TypeScript-simple-calculator#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
 }
