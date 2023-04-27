@@ -1,3 +1,4 @@
+// configures the typescript controller and outputs compiled JS files to the dist folder
 {
   "compilerOptions": {
     "target": "es5",
