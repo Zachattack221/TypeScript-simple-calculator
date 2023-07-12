@@ -1,4 +1,6 @@
+// Import functions from other ts files in src folder
 import { SimpleCalculator, Calculator } from './calculator';
+import { formatNumber, displayResult } from './utils';
 
 // Creates a new instance of the SimpleCalculator class
 const calculator:Calculator = new SimpleCalculator(6, 3);

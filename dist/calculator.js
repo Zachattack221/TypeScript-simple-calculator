@@ -1,7 +1,15 @@
 "use strict";
+// // Establishes an interface for calculator object
+// interface Calculator {
+//   num1: number;
+//   num2: number;
+//   add(): number;
+//   subtract(): number;
+//   multiply(): number;
+//   divide(): number;
+// }
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SimpleCalculator = void 0;
-// Create a class to implement the Calculator interface
 var SimpleCalculator = /** @class */ (function () {
     function SimpleCalculator(num1, num2) {
         this.num1 = num1;
@@ -25,18 +33,3 @@ var SimpleCalculator = /** @class */ (function () {
     return SimpleCalculator;
 }());
 exports.SimpleCalculator = SimpleCalculator;
-;
-// Creates a new instance of the SimpleCalculator class
-// const calculator = new SimpleCalculator(6, 3);
-// // Calls the methods on the calculator object and outputs a result
-// console.log(calculator.add()); // Output: 9
-// console.log(calculator.subtract()); // Output: 3
-// console.log(calculator.multiply()); // Output: 18
-// console.log(calculator.divide()); // Output: 2
-var SimpleCalculator = /** @class */ (function () {
-    function SimpleCalculator() {
-    }
-    return SimpleCalculator;
-}());
-exports.SimpleCalculator = SimpleCalculator;
-;
