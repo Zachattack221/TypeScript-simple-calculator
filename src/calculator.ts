@@ -12,30 +12,30 @@ interface Calculator {
 class SimpleCalculator implements Calculator {
   num1: number;
   num2: number;
-}
 
 constructor(num1: number, num2: number) {
   this.num1 = num1;
   this.num2 = num2;
 }
 
-add() {
+add(): number {
   return this.num1 + this.num2;
 }
 
-subtract() {
+subtract(): number {
   return this.num1 - this.num2;
 }
 
-multiply() {
+multiply(): number {
   return this.num1 * this.num2;
 }
 
-divide() {
+divide(): number {
   if (this.num2 === 0) {
     throw new Error("Cannot divide by zero");
   }
   return this.num1 + this.num2;
+}
 }
 
 // Creates a new instance of the SimpleCalculator class
@@ -46,3 +46,6 @@ console.log(calculator.add()); // Output: 9
 console.log(calculator.subtract()); // Output: 3
 console.log(calculator.multiply()); // Output: 18
 console.log(calculator.divide()); // Output: 2
+
+export class SimpleCalculator {
+}
