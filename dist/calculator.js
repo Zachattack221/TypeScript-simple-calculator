@@ -20,21 +20,23 @@ var SimpleCalculator = /** @class */ (function () {
         if (this.num2 === 0) {
             throw new Error("Cannot divide by zero");
         }
-        return this.num1 + this.num2;
+        return this.num1 / this.num2;
     };
     return SimpleCalculator;
 }());
 exports.SimpleCalculator = SimpleCalculator;
+;
 // Creates a new instance of the SimpleCalculator class
-var calculator = new SimpleCalculator(6, 3);
-// Calls the methods on the calculator object and outputs a result
-console.log(calculator.add()); // Output: 9
-console.log(calculator.subtract()); // Output: 3
-console.log(calculator.multiply()); // Output: 18
-console.log(calculator.divide()); // Output: 2
+// const calculator = new SimpleCalculator(6, 3);
+// // Calls the methods on the calculator object and outputs a result
+// console.log(calculator.add()); // Output: 9
+// console.log(calculator.subtract()); // Output: 3
+// console.log(calculator.multiply()); // Output: 18
+// console.log(calculator.divide()); // Output: 2
 var SimpleCalculator = /** @class */ (function () {
     function SimpleCalculator() {
     }
     return SimpleCalculator;
 }());
 exports.SimpleCalculator = SimpleCalculator;
+;

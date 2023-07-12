@@ -1,7 +1,7 @@
-import { SimpleCalculator } from './calculator';
+import { SimpleCalculator, Calculator } from './calculator';
 
 // Creates a new instance of the SimpleCalculator class
-const calculator = new SimpleCalculator(6, 3);
+const calculator:Calculator = new SimpleCalculator(6, 3);
 
 // Calls the methods on the calculator object and outputs a result
 console.log(calculator.add()); // Output: 9
