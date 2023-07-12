@@ -1,5 +1,6 @@
 // Import functions from other ts files in src folder
 import { SimpleCalculator, Calculator } from './calculator';
+// TODO: find uses for utils functions, look into beginning react visual componenets 
 import { formatNumber, displayResult } from './utils';
 
 // Creates a new instance of the SimpleCalculator class
