@@ -1,15 +1,7 @@
 "use strict";
-// // Establishes an interface for calculator object
-// interface Calculator {
-//   num1: number;
-//   num2: number;
-//   add(): number;
-//   subtract(): number;
-//   multiply(): number;
-//   divide(): number;
-// }
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SimpleCalculator = void 0;
+// // Creates a class to implement and export the Calculator interface
 var SimpleCalculator = /** @class */ (function () {
     function SimpleCalculator(num1, num2) {
         this.num1 = num1;
